@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {}
+
+
+
+
+
+/* header woth upper nav */
+header {
+    color: white;
+    height: 80px;
+    width: 100%;
+    background-color: #2C3E50;
+}
+
+.am-col-header {
+    height: 80px;
+}
+
+.am-burger-border {
+    border: solid 1px #92908e;
+    border-radius: 5px;
+    padding: 1px 5px;
+}
+
+
+
+
+
+
+
+/* jumbotron with main img and infos */
+
+.am-jumbotron {
+    padding-top: 7rem;
+    background-color: #1ABC9C;
+    color: white;
+    padding-bottom: 1.5rem;
+}
+
+.am-img-jumbo {
+    width: 13rem;
+    margin-bottom: .5rem;
+}
+
+.bi-star-fill {
+    margin-left: .6rem;
+    margin-right: .6rem;
+    font-size: 1.5rem;
+}
+
+.am-rulestar {
+    margin-bottom: .9rem;
+}
+
+hr {
+    width: 60px;
+    height: 1px;
+    border: solid 2px white;
+    opacity: 100%;
+    border-radius: 20px;
+}
+
+
+
+
+/* main with portfolio*/
+
+.am-main-container {
+    padding-top: 1.5rem;
+}
+
+.am-main-container .bi-star-fill {
+    color: #2C3E50;
+}
+
+.am-main-container hr {
+    width: 60px;
+    height: 1px;
+    border: solid 2px #2C3E50;
+    opacity: 100%;
+    border-radius: 20px;
+}
