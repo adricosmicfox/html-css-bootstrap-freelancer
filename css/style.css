@@ -100,5 +100,52 @@ hr {
 }
 
 .am-cards-container {
-    padding-bottom: 1.5rem;
+    padding-bottom: 2.5rem;
+}
+
+
+
+
+/* about section */
+
+.am-about-section {
+    background-color: #1ABC9C;
+    color: white;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    min-width: 100%;
+}
+
+.am-about-section .bi-star-fill {
+    color: white;
+}
+
+.am-about-section hr {
+    border: solid 2px white;
+}
+
+.am-about-text {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+/* contact me section */
+
+.am-contact-section {
+    padding-top: 2.5rem;
+}
+
+.am-contact-up {
+    margin-bottom: 1rem;
+}
+
+.am-form-box hr {
+    width: 60%;
+    height: 1px;
+    border: solid 1px #2C3E50;
+    opacity: 100%;
+    border-radius: 20px;
 }
