@@ -1,14 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 body {}
-
-
-
 
 
 /* header woth upper nav */
@@ -127,9 +117,8 @@ hr {
 .am-about-text {
     font-size: 1.2rem;
     margin-bottom: 2rem;
+    margin-top: .8rem;
 }
-
-
 
 
 /* contact me section */
@@ -142,10 +131,19 @@ hr {
     margin-bottom: 1rem;
 }
 
-.am-form-box hr {
-    width: 60%;
-    height: 1px;
-    border: solid 1px #2C3E50;
-    opacity: 100%;
-    border-radius: 20px;
+
+/* footer */
+
+footer {
+    color: white;
+    background-color: #3a4d61;
+    min-width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.am-under-footer {
+    color: white;
+    background-color: #2C3E50;
+    min-width: 100%;
 }
